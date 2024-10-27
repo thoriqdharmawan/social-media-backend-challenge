@@ -11,7 +11,7 @@ To build a basic social media application backend using Golang, Fiber, and an OR
 3. **Database**: PostgreSQL (or MySQL if PostgreSQL is not available)
 4. **ORM**: GORM
 5. **Authentication**: JWT-based authentication for secure API access
-6. **Environment Variables**: Store sensitive data (e.g., database credentials, JWT secret key, cloud API keys) in a .env file. This helps keep sensitive information out of your source code, following best security practices. Use a library like godotenv to load these environment variables in your application.
+6. **Environment Variables**: Store sensitive data (e.g., database credentials, JWT secret key, cloud API keys) in a .env file. This helps keep sensitive information out of your source code, following best security practices. Use a library like `godotenv` to load these environment variables in your application.
 7. **Deployment**: Deploy the application to a cloud service (e.g., Heroku, AWS, GCP, or DigitalOcean)
 
 ## Features
