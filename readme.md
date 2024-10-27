@@ -75,6 +75,10 @@ Design RESTful endpoints for each feature. Here’s a suggested endpoint list:
 - **Likes**:
   - `POST /api/v1/posts/:id/like` - Like a post
   - `DELETE /api/v1/posts/:id/like` - Unlike a post
+- **Notifications**:
+  - `GET /api/v1/notifications` - Retrieve a list of notifications for the authenticated user
+  - `PUT /api/v1/notifications/:id/read` - Mark a notification as read
+  - `DELETE /api/v1/notifications/:id` - Delete a notification
 
 #### Requirements
 
